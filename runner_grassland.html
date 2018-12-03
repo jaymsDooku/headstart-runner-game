@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/leaderboard.js"></script>
+	<script type="text/javascript" src="libs/ClassLoader.js"></script>
+	<script type="text/javascript">
+		// Load in the classes and tutorial1.js
+		new ClassLoader("js/runner_grassland.js");
+	</script>
+
+    <style type="text/css">
+        body {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+	<div class="menu-container">
+		<div class="center-menu">
+			<h1>Title</h1>
+			<ul>
+			  <li id="resume"><a href='#'>Resume</a></li>
+			  <li><a href='map.html'>Back To Map</a></li>
+			  <li><a href='howtoplay.html'>How To Play</a></li>
+			  <li><a href='leaderboards.html'>Leaderboards</a></li>
+			  <li><a href='#'>Settings</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="leaderboard tutorial-container center-menu">
+			<div class="tutorial-header">
+				<a id="back_arrow" href="menu.html"><img src="svg/back_arrow.svg" alt="Back To Menu"></a>
+				<h1>Leaderboards</h1>
+			</div>
+			<div class="leaderboard-container">
+				<div class="leaderboard-selector">
+					<div class="gamemode-selector">
+						<button id="lr">Lane Runner</button>
+					</div>
+					<div class="level-selector">
+						<div class="lr-levels">
+							<button id="grassland">Littered Grassland</button>
+							<button id="factory">Solar Factory</button>
+						</div>
+					</div>
+				</div>
+				<div class="leaderboard-view">
+				</div>
+			</div>
+		</div>
+</body>
+</html>

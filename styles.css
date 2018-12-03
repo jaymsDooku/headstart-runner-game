@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+
+* {
+	overflow: hidden;
+}
+
+p {
+	margin: 0;
+	
+}
+
+gold {
+	color: #967b22;
+}
+
+green {
+	color: #236d15;
+}
+
+body {
+	background-color: grey;
+	font-family: "Baloo Bhaina";
+}
+
+h1 {
+	font-family: "Baloo Bhaina";
+	font-size: 60px;
+	color: darkblue;
+}
+
+ul {
+  -webkit-padding-start: 0;
+  -webkit-padding-before: 0;
+  -webkit-padding-after: 0;
+  margin: 0;
+}
+
+li {
+  -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+  padding: 0;
+}
+
+canvas {
+	width: 800px;
+	height 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center-menu {
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	height: 580px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	background-image: url("background.jpg");
+}
+
+
+
+.menu-container {
+	background-color: rgba(255, 255, 255, 0);
+}
+.menu-container .center-menu ul {
+  font-family: 'Baloo Bhaina';
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 350px;
+}
+
+.menu-container .center-menu ul li {
+  display: block;
+  background-color: rgba(141, 214, 178, 0.5);
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 3px;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-top: 15px;
+  border: 2px solid rgb(74, 102, 88);
+  overflow: hidden;
+  width: 100px;
+  color: darkblue;
+}
+
+.menu-container .center-menu ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu-container .center-menu ul li:hover {
+  transform: scale(1.2);
+}
+
+.tutorial-container {
+	text-align: center;
+	height: 580px;
+}
+.tutorial-header {
+}
+
+.tutorial-header h1 {
+	font-size: 40px;
+	margin-right: 100px;
+}
+
+.tutorial-header img {
+	width: 100px;
+	height: 100px;
+	margin-top: 26.8px;
+	float: left;
+}
+
+.tutorial-header a {
+	
+}
+
+.tutorial-view-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.tutorial-space {
+	flex: 1;
+	max-width: 100px;
+}
+
+.tutorial-view-container > * {
+	flex: 1 100%;
+}
+
+.runner-tutorial .tutorial-box {
+	padding-bottom: 20px;
+}
+
+.joyride-tutorial .tutorial-box {
+}
+
+.tutorial-box {
+	font-size: 16px;
+	line-height: 17px;
+}
+
+.tutorial-box img {
+	width: 100px;
+	height: 100px;
+}
+
+.tutorial-box .preview {
+	width: 200px;
+	height: 100px;
+	margin-top: 20px;
+}
+
+.tutorial-lbl {
+	color: darkblue;
+	font-size: 28px;
+}
+
+.tutorial-entry {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.tutorial-entry p {
+	line-height: 16px;
+	font-size: 15px;
+}
+
+.runner-desc {
+	padding-left: 20px;
+}
+
+.joyride-desc {
+	padding-right: 20px;
+}
+
+.leaderboard-container {
+	background-color: rgba(255, 255, 255, 0.4);
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+}
+
+.leaderboard-container .leaderboard-selector {
+	flex: 1;
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	height: 100%;
+	border-right: 2px solid rgba(255, 255, 255, 0.8);
+	
+	display: flex;
+	flex-direction: column;
+}
+
+.leaderboard-container .leaderboard-view {
+	flex: 2;
+	width: 100%;
+}
+
+.gamemode-selector {
+}
+
+.leaderboard-selector button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	border: none;
+	margin-top: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: "Baloo Bhaina";
+	background-color: rgb(74, 102, 88);
+	color: rgba(255, 255, 255, 0.75);
+	border-radius: 5px;
+}
+
+.leaderboard-selector button:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.level-selector {
+	margin-top: 260px;
+}
+
+.leaderboard-selected {
+	font-weight: bold;
+	transform: scale(1.1);
+}
+
+#grassland {
+	background-color: #29a329;
+}
+
+#factory {
+	background-color: #527a7a;
+}
+
+#meteormayhem {
+	background-color: #b30000;
+}
+
+#diverdodger {
+	background-color: #3385ff;
+}
+
+please {
+	color: darkblue;
+	font-size: 34px;
+}
+
+.leaderboard-view {
+	text-align: center;
+}
+
+.leaderboard-view ul {
+	padding: 0;
+}
+
+.leaderboard-view li {
+	width: 100%;
+	margin: 0;
+	list-style-type: none;
+	align-items: center;
+}
+
+rank {
+	font-size: 24px;
+}
+
+.rank1 {
+	color: #ffa31a;
+}
+
+.rank2 {
+	color: #999966;
+}
+
+.rank3 {
+	color: #994d00;
+}
+
+stat {
+	color: #7a7a52;
+}
+
+.settings-container input {
+	height: 20px;
+	width: 300px;
+	background-color: rgba(255, 255, 255, 0.65);
+	outline: none;
+	appearance: none;
+	-webkit-appearance: none;
+}
+
+.settings-container input::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 20px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.settings-container::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 20px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+label {
+	color: darkblue;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+v {
+	font-weight: normal;
+}
+
+.prelude-container {
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-bottom: : 15px;
+	padding-left: 15px;
+	padding-right: 15px
+}
+
+.prelude-container p {
+	font-size: 16px;
+	line-height: 19px;
+	color: #646970;
+}
